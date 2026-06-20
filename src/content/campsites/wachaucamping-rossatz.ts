@@ -9,55 +9,55 @@ const wachaucampingRossatz: CampsiteConfig = {
   ort: "Rossatzbach",
   region: "Wachau",
   brandKind: "Camping an der Donau",
-  regionLong: "Weltkulturerbe Wachau · Niederösterreich · Österreich",
+  regionLong: "Wachau · Niederösterreich · UNESCO-Weltkulturerbe",
 
   heroVariant: "center",
 
-  claim: "Direkt an der Donau, mit Blick auf Dürnstein",
+  claim: "Campingurlaub mit Blick auf Dürnstein",
   claimEmphasis: "Blick auf Dürnstein",
-  emailDetail: "euer Donaustellplatz direkt am Ufer der Donau",
+  emailDetail: "euer Blick auf Dürnstein direkt vom Donaustellplatz",
   intro:
-    "Auf dem rechten Donauufer, direkt gegenüber Dürnstein, findest du einen der schönsten Plätze der Wachau — Stellplätze für Wohnmobil, Wohnwagen und Zelt, viele mit freiem Blick aufs Wasser.",
+    "Direkt am rechten Donauufer in Rossatz, mitten in der Wachau, findest du ebene Stellplätze für Wohnmobil, Wohnwagen und Zelt — viele in erster Reihe am Fluss, mit Blick hinüber nach Dürnstein.",
 
   logo: { src: `${IMG}/logo-b27f0faf93.png`, alt: "Wachau-Camping Rossatz Logo" },
 
   statement: {
-    text: "Morgens öffnest du das Vorzelt — und gegenüber leuchtet schon Dürnstein über der Donau.",
-    emphasis: "Dürnstein",
+    text: "Bei uns reicht der Blick über die Donau bis hinüber nach Dürnstein.",
+    emphasis: "nach Dürnstein",
   },
 
   pillars: [
     {
-      title: "Stellplätze am Donauufer",
-      text: "Viele Plätze liegen in erster Reihe direkt an der Donau — mit freiem Blick hinüber nach Dürnstein.",
-      image: { src: `${IMG}/gallery-2c76bdd28c.webp`, alt: "Wohnwagen mit Sonnenschirm am Donauufer, Blick auf Dürnstein" },
+      title: "Plätze direkt an der Donau",
+      text: "Die Donaustellplätze liegen in erster Reihe am Fluss — Wohnwagen aufstellen und aufs Wasser schauen.",
+      image: { src: `${IMG}/gallery-2c76bdd28c.webp`, alt: "Wohnwagen mit Donaublick nach Dürnstein am Wachau-Camping Rossatz" },
     },
     {
-      title: "Persönlich geführt",
-      text: "Kristina Roller und ihr Team empfangen dich persönlich an der Rezeption — um Voranmeldung wird gebeten.",
-      image: { src: `${IMG}/gallery-c868540874.webp`, alt: "Kristina Roller empfängt Gäste an der Rezeption von Wachau-Camping Rossatz" },
+      title: "Persönlich empfangen",
+      text: "Kristina Roller und ihr Team begrüßen dich persönlich an der Rezeption — Anmeldung am besten vorab.",
+      image: { src: `${IMG}/gallery-c868540874.webp`, alt: "Persönliche Anmeldung an der Rezeption von Wachau-Camping Rossatz" },
     },
     {
-      title: "Inmitten der Marillengärten",
-      text: "Rossatz-Arnsdorf ist Österreichs größte Marillengemeinde — rundum Weingärten, Donau und Wanderwege.",
-      image: { src: `${IMG}/gallery-597bd1a8ea.webp`, alt: "Rossatz mit Weingärten und Marillengärten an der Donau" },
+      title: "Baden in der Donau",
+      text: "Der flache Schotterstrand vor dem Platz lädt zum Baden in der Donau — gegenüber grüßt Dürnstein.",
+      image: { src: `${IMG}/gallery-75f537f0d4.webp`, alt: "Badestrand an der Donau mit Blick auf Dürnstein" },
     },
   ],
 
   usps: [
-    "Stellplätze an der Donau",
-    "Blick auf Dürnstein",
-    "WLAN kostenlos",
-    "Brötchenservice",
+    "Donaustellplätze am Fluss",
+    "Gratis WLAN",
     "Hunde willkommen",
+    "Brötchenservice",
     "Tennisplatz",
+    "Restaurants am Platz",
   ],
 
   trust: {
-    heading: "Einer der schönsten Plätze der Wachau",
-    headingEmphasis: "schönsten",
+    heading: "Warum Gäste in Rossatz bleiben",
+    headingEmphasis: "Rossatz",
     intro:
-      "Am rechten Donauufer, mitten im Weltkulturerbe Wachau: ebene Stellplätze direkt am Wasser, der Blick auf Dürnstein und kurze Wege in die Marillengärten — persönlich geführt von Kristina Roller und ihrem Team.",
+      "Seit Jahren ein vertrauter Platz an der Donau: ruhige Lage in Österreichs größter Marillengemeinde, kurze Wege zu Strand, Radweg und Rezeption — und ein Team, das jeden Gast noch persönlich kennt.",
   },
 
   awards: [],
@@ -65,147 +65,144 @@ const wachaucampingRossatz: CampsiteConfig = {
   saison: { von: "März", bis: "November" },
 
   hero: {
-    aerial: { src: `${IMG}/gallery-61b18cb649.webp`, alt: "Wohnmobile auf den sonnigen Stellplätzen von Wachau-Camping Rossatz" },
+    aerial: { src: `${IMG}/gallery-61b18cb649.webp`, alt: "Stellplätze von Wachau-Camping Rossatz zwischen blühenden Marillenbäumen" },
   },
 
   breather: {
-    image: { src: `${IMG}/gallery-bb36bfe1eb.webp`, alt: "Luftbild über das Weltkulturerbe Wachau mit Weingärten und Donau" },
-    line: "Die Wachau — gerade einmal 35 Kilometer Donautal.",
+    image: { src: `${IMG}/gallery-bb36bfe1eb.webp`, alt: "Abendlicht über den Weinterrassen und der Donau in der Wachau" },
+    line: "Die Wachau — UNESCO-Weltkulturerbe, gleich vor dem Vorzelt.",
   },
 
   camping: {
     heading: "Camping am rechten Donauufer",
     intro:
-      "Vom Wohnmobil über den Wohnwagen bis zum Zelt — ebene Plätze, viele direkt an der Donau, dazu Restaurants und Brötchenservice am Platz.",
+      "Vom Donaustellplatz bis zur Zeltwiese: ebene Plätze, CEE-Strom und kurze Wege zu Strand, Restaurant und Radweg.",
     features: [
       {
-        title: "Donaustellplätze",
-        text: "Ebene, gepflegte Stellplätze für Wohnmobil und Wohnwagen — die Donaustellplätze liegen direkt am Wasser.",
-        image: { src: `${IMG}/gallery-f78b6edcce.webp`, alt: "Gepflegte Stellplätze mit Wohnwagen und Wohnmobilen bei Wachau-Camping Rossatz" },
+        title: "Donaustellplätze mit Aussicht",
+        text: "Geräumige, ebene Plätze für Wohnmobil und Wohnwagen — die Donaustellplätze am Wasser sind besonders gefragt.",
+        image: { src: `${IMG}/gallery-f78b6edcce.webp`, alt: "Moderne Stellplätze für Wohnmobile am Wachau-Camping Rossatz" },
       },
       {
-        title: "Zelten mit Aussicht",
-        text: "Eigene Wiesenplätze fürs Zelt, viele mit Blick über die Donau auf Dürnstein und die Weinberge.",
-        image: { src: `${IMG}/gallery-09fcf081d9.webp`, alt: "Zelt auf der Wiese mit Blick auf Dürnstein über der Donau" },
-      },
-      {
-        title: "Baden in der Donau",
-        text: "Direkt am Platz geht es an die Donau — ins Wasser, auf die Luftmatratze oder einfach am Ufer entspannen.",
-        image: { src: `${IMG}/gallery-1dd0bed516.webp`, alt: "Badegast auf der Luftmatratze am Donauufer vor Dürnstein" },
-      },
-      {
-        title: "Restaurants am Platz",
-        text: "Die Restaurants Strandgut und Alte Schiffstation sorgen für gute Verpflegung ganz in der Nähe.",
-        image: { src: `${IMG}/gallery-a2b1e96db2.webp`, alt: "Sonnige Gastgarten-Terrasse mit Schirmen bei Wachau-Camping Rossatz" },
-      },
-      {
-        title: "Empfang & Brötchenservice",
-        text: "Frisches Frühstücksgebäck reservierst du an der Rezeption — kostenloses WLAN gibt es dazu.",
-        image: { src: `${IMG}/gallery-70e504c81e.webp`, alt: "Rezeptionsgebäude von Campingplatz Rossatz mit Gästen und Fahrrädern" },
+        title: "Zeltwiese überm Strom",
+        text: "Eigene Wiesenplätze fürs Zelt mit freiem Blick über die Donau nach Dürnstein — vom kleinen bis zum großen Zelt.",
+        image: { src: `${IMG}/gallery-09fcf081d9.webp`, alt: "Zeltplätze auf der Wiese mit Blick auf Dürnstein" },
       },
       {
         title: "Sonnenplätze zum Verweilen",
-        text: "Schattige Bäume, Liegewiese und Blick aufs Wasser — bleib einfach sitzen und lass die Seele baumeln.",
-        image: { src: `${IMG}/gallery-4859239a13.webp`, alt: "Gedeckter Gartentisch mit Donaublick auf Dürnstein" },
+        text: "Ein schattiger Baum, der Tisch im Grünen und die Donau im Blick — hier genießt du den Urlaubstag in Ruhe.",
+        image: { src: `${IMG}/gallery-4859239a13.webp`, alt: "Sitzplatz im Grünen mit Donaublick am Camping Rossatz" },
+      },
+      {
+        title: "Zwei Restaurants am Platz",
+        text: "Die Lokale Strandgut und Alte Schiffstation haben geöffnet — Einkehr mit Donaublick ohne lange Wege.",
+        image: { src: `${IMG}/gallery-a2b1e96db2.webp`, alt: "Restaurantterrasse mit Sonnenschirmen am Wachau-Camping Rossatz" },
+      },
+      {
+        title: "Persönliche Anmeldung",
+        text: "An der Rezeption reservierst du Frühstücksgebäck und buchst den Tennisplatz — um Voranmeldung wird gebeten.",
+        image: { src: `${IMG}/gallery-70e504c81e.webp`, alt: "Rezeptionsgebäude von Wachau-Camping Rossatz" },
+      },
+      {
+        title: "Direkt am Donauradweg",
+        text: "Der Donauradweg führt unmittelbar am Platz vorbei — mit der Rollfähre geht es bequem ans andere Ufer.",
+        image: { src: `${IMG}/gallery-7e8ca1e173.webp`, alt: "Radfahrer am Donauradweg mit Blick auf Dürnstein" },
       },
     ],
   },
 
   aktivitaeten: {
-    heading: "Ausflüge im Welterbe Wachau",
+    heading: "Ausflüge in die Wachau",
     intro:
-      "Welterbe vor der Tür: Dürnstein, Göttweig und Krems, dazu Radwege und Wanderungen durch Weinberge und Marillengärten.",
+      "Burgen, Klöster und Winzerorte liegen rundum am Donauufer — die schönsten Ziele erreichst du per Rad, Schiff oder kurzem Spaziergang.",
     items: [
       {
         title: "Dürnstein",
-        text: "Die blaue Stiftskirche und die Burgruine über dem Ort liegen direkt gegenüber am linken Ufer.",
-        image: { src: `${IMG}/gallery-d48a1b412e.webp`, alt: "Dürnstein mit blauer Stiftskirche und Burgruine an der Donau" },
-      },
-      {
-        title: "Burgruine Aggstein",
-        text: "Die Burgruine Aggstein thront auf einem Felsen 300 Meter über der Donau — ein lohnendes Ausflugsziel.",
-        image: { src: `${IMG}/gallery-34d8d5dd32.webp`, alt: "Burgruine Aggstein auf dem Felsen über der Donau" },
+        text: "Die Kuenringerstadt mit dem markanten blauen Kirchturm liegt direkt gegenüber — Wahrzeichen der Wachau.",
+        image: { src: `${IMG}/gallery-d48a1b412e.webp`, alt: "Dürnstein mit dem blauen Stiftskirchturm an der Donau" },
       },
       {
         title: "Stift Göttweig",
-        text: "Das Benediktinerstift Göttweig, seit 2001 Weltkulturerbe, wacht südlich von Krems über die Wachau.",
-        image: { src: `${IMG}/gallery-0603a4a969.webp`, alt: "Stift Göttweig über dem Donautal der Wachau" },
+        text: "Das barocke Benediktinerstift thront überm Donautal — Weltkulturerbe mit weitem Blick über die Wachau.",
+        image: { src: `${IMG}/gallery-0603a4a969.webp`, alt: "Stift Göttweig über dem Donautal" },
+      },
+      {
+        title: "Burgruine Aggstein",
+        text: "Hoch über der Donau thront die alte Raubritterburg der Kuenringer — ein Ausflug mit großem Panorama.",
+        image: { src: `${IMG}/gallery-34d8d5dd32.webp`, alt: "Burgruine Aggstein hoch über der Donau" },
       },
       {
         title: "Krems",
-        text: "Das Tor zur Wachau lockt mit historischer Altstadt, Kunstmeile und gemütlichen Heurigen.",
-        image: { src: `${IMG}/gallery-45e962afa7.webp`, alt: "Historische Altstadt von Krems mit Steiner Tor" },
+        text: "Das Tor zur Wachau: historische Altstadt, Kunstmeile und Heurige nur wenige Kilometer flussabwärts.",
+        image: { src: `${IMG}/gallery-45e962afa7.webp`, alt: "Steiner Tor in der Altstadt von Krems" },
       },
       {
-        title: "Donauradweg",
-        text: "Der Donauradweg führt direkt am Platz vorbei — die Wachau lässt sich wunderbar mit dem Rad erkunden.",
-        image: { src: `${IMG}/gallery-7e8ca1e173.webp`, alt: "Radfahrer am Donauradweg vor Dürnstein" },
+        title: "Rollfähre über die Donau",
+        text: "Mit Rad und Gepäck setzt die Rollfähre Arnsdorf-Spitz ans linke Ufer über — praktisch für Radtouren.",
+        image: { src: `${IMG}/gallery-5e0dfb3cd7.webp`, alt: "Rollfähre mit Radfahrern über die Donau" },
       },
       {
-        title: "Rollfähre Spitz–Arnsdorf",
-        text: "Mit der Rollfähre Spitz–Arnsdorf setzt du bequem samt Fahrrad ans linke Donauufer über.",
-        image: { src: `${IMG}/gallery-5e0dfb3cd7.webp`, alt: "Rollfähre mit Radfahrern auf der Donau bei Spitz-Arnsdorf" },
+        title: "Mautern & Römerweg",
+        text: "Eine der ältesten Römersiedlungen am Eingang der Wachau — Kulturweg durch die hübsche kleine Altstadt.",
+        image: { src: `${IMG}/gallery-f679f20084.webp`, alt: "Mautern an der Donau mit Brücke und Stift Göttweig im Hintergrund" },
       },
     ],
   },
 
   anreise: {
-    heading: "Dein Weg ans rechte Donauufer",
+    heading: "Dein Weg nach Rossatz",
     modes: [
       {
         title: "Mit dem Auto",
-        text: "Über die A1 bis Melk und weiter am rechten Donauufer; von Krems kommend weichst du über die St. Pöltner Brücke (B37) aus.",
+        text: "Über die A1 (Abfahrt Melk) oder die S33 bis Krems an die Donau. Hinweis: Die Donaubrücke Mautern ist gesperrt — über die St. Pöltner Brücke (B37) in Krems ausweichen.",
       },
       {
-        title: "Bahn & Fähre",
-        text: "Bahnhof Krems an der Donau, von dort mit dem Bus oder der Rollfähre ans rechte Ufer nach Rossatz.",
+        title: "Mit Rad & Schiff",
+        text: "Der Donauradweg führt direkt am Platz vorbei; die Rollfähre Arnsdorf-Spitz verbindet dich mit dem linken Donauufer.",
       },
       {
-        title: "Mit dem Rad",
-        text: "Der Donauradweg verläuft direkt am Platz — die Wachau-Etappe zwischen Krems und Melk führt vorbei.",
+        title: "Mit der Bahn",
+        text: "Bahnstation Krems an der Donau, von dort weiter mit Bus oder Taxi ans rechte Ufer nach Rossatzbach.",
       },
     ],
   },
 
   galerie: {
-    heading: "Die Wachau vor der Tür",
+    heading: "Wachau pur",
     headingEmphasis: "Wachau",
     intro:
-      "Sonnige Stellplätze, der Donaublick und die Dörfer der Wachau — ein paar Eindrücke aus der Umgebung.",
+      "Strand, Weinterrassen und Donaustimmung — ein paar Eindrücke vom Platz und seiner Umgebung.",
     tag: "März bis November",
-    moreCount: 9,
     images: [
-      { src: `${IMG}/gallery-cbedba3e41.webp`, alt: "Dürnstein bei Nacht mit beleuchtetem Schiff auf der Donau" },
-      { src: `${IMG}/gallery-528a477b2e.webp`, alt: "Weinterrassen und Donau bei Spitz in der Wachau" },
-      { src: `${IMG}/gallery-f679f20084.webp`, alt: "Mautern an der Donau mit Brücke und Blick zum Stift Göttweig" },
-      { src: `${IMG}/gallery-1966050218.webp`, alt: "Weißenkirchen in der Wachau mit Kirche und Weinbergen an der Donau" },
+      { src: `${IMG}/gallery-1dd0bed516.webp`, alt: "Baden am Donaustrand mit Blick auf Dürnstein" },
+      { src: `${IMG}/gallery-528a477b2e.webp`, alt: "Weinterrassen und Donautal bei Spitz in der Wachau" },
+      { src: `${IMG}/gallery-cbedba3e41.webp`, alt: "Sommerabend an der Donau bei Dürnstein" },
+      { src: `${IMG}/gallery-597bd1a8ea.webp`, alt: "Rossatz inmitten der Marillengärten und Weinberge" },
     ],
   },
 
   booking: {
-    heading: "Sichere dir deinen Donaustellplatz",
-    headingEmphasis: "Donaustellplatz",
+    heading: "Jetzt deinen Donauplatz sichern",
+    headingEmphasis: "Donauplatz",
     intro:
-      "Wähle Zeitraum und Personen — Kristina Roller bestätigt deine Anfrage persönlich. Um Voranmeldung wird gebeten.",
+      "Sag uns Zeitraum und Personen — Kristina Roller meldet sich persönlich mit deiner Verfügbarkeit zurück.",
     pricesArePlaceholder: false,
-    priceNote: "ab-Preise Nebensaison · 2 Personen inkl. Platz & Warmwasser · zzgl. Strom € 5/Tag und Nächtigungstaxe € 2,60",
-    highlight: {
-      title: "Plätze direkt an der Donau",
-      text: "Die Donaustellplätze liegen in erster Reihe am Wasser, mit Blick auf Dürnstein.",
-    },
+    priceNote:
+      "Richtpreise Nebensaison · Stellplatz inkl. 2 Personen · zzgl. Strom (€ 5/Tag) und Ortstaxe (€ 2,60 p. P.) · Hauptsaison etwas höher",
+    highlight: { title: "Plätze direkt am Fluss", text: "Die Donaustellplätze liegen in erster Reihe am Wasser." },
     categories: [
       { id: "donau", label: "Donaustellplatz", perNight: 39, perExtraGuest: 10 },
-      { id: "stellplatz", label: "Stellplatz", perNight: 34.5, perExtraGuest: 10 },
-      { id: "zelt", label: "Zeltplatz", perNight: 24.5, perExtraGuest: 10 },
+      { id: "standard", label: "Stellplatz", perNight: 35, perExtraGuest: 10 },
+      { id: "zelt", label: "Zeltplatz", perNight: 28, perExtraGuest: 10 },
     ],
   },
 
   kontakt: {
+    coords: { lat: 48.388567, lng: 15.516357, approx: true },
     tel: "+43 676 848814800",
     telHref: "tel:+43676848814800",
     mail: "camping@rossatz-arnsdorf.at",
     adresse: "Rossatzbach 21 · 3602 Rossatzbach · Wachau",
-    coords: { lat: 48.3899921, lng: 15.5169396 },
   },
 
   languages: ["DE"],
@@ -213,9 +210,9 @@ const wachaucampingRossatz: CampsiteConfig = {
   nav: [
     { label: "Camping", href: "#camping", children: [
       { label: "Stellplätze", href: "#camping" },
-      { label: "Baden", href: "#camping" },
+      { label: "Zelten", href: "#camping" },
     ]},
-    { label: "Erleben", href: "#aktivitaeten" },
+    { label: "Ausflüge", href: "#aktivitaeten" },
     { label: "Galerie", href: "#galerie" },
     { label: "Preise & Anreise", href: "#booking", children: [
       { label: "Preise", href: "#booking" },
